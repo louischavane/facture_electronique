@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify
 from facturx import get_facturx_xml_from_pdf
 import xml.etree.ElementTree as ET
-from extract_data import extract_data_from_xml
 import xmltodict, json
 
 app = Flask(__name__)
