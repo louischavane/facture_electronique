@@ -17,5 +17,5 @@ def analyze():
 
     xml_to_json = xmltodict.parse(xml)
 
-    return xml_to_json
+    return jsonify(xml_to_json)
 
